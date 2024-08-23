@@ -1,0 +1,45 @@
+Bir Veri Bilimi (Data Science) pozisyonu için örnek bir proje oluşturmak, yeteneklerinizi sergilemenin harika bir yoludur. Aşağıda, bir veri bilimi projesi için detaylı bir rehber bulabilirsiniz. Bu proje, veri toplama, temizleme, analiz etme, modelleme ve sonuçları raporlama gibi temel adımları içerir.
+
+Proje Konusu: Müşteri Churn Tahmini
+1. Proje Amacı:
+Müşteri churn (müşteri kaybı) tahmini, bir şirketin hangi müşterilerinin hizmetten ayrılma olasılığının yüksek olduğunu öngörmek için kullanılan bir veri bilimi uygulamasıdır. Bu proje, bir telekom şirketinin müşteri verilerini kullanarak, hangi müşterilerin hizmetten ayrılma eğiliminde olduğunu tahmin etmeyi amaçlar.
+
+2. Veri Toplama:
+Veri Kaynağı: Kaggle gibi platformlardan ya da şirketin sağladığı verilerden müşteri churn verileri.
+Veri Seti Özellikleri:
+Müşteri kimliği
+Demografik bilgiler (yaş, cinsiyet, gelir düzeyi, vb.)
+Abonelik detayları (abonelik süresi, kullanılan hizmetler, ödeme yöntemleri, vb.)
+Kullanım verileri (çağrı süresi, internet kullanımı, vb.)
+Müşteri hizmetleri etkileşimleri (şikayet sayısı, memnuniyet derecesi, vb.)
+3. Veri Temizleme ve Hazırlama:
+Eksik Veriler: Eksik verileri tespit edin ve uygun bir şekilde ele alındı (örneğin, ortalama ile doldurma, çıkarma).
+Kategorik Veriler: Kategorik verileri one-hot encoding gibi yöntemlerle sayısal verilere dönüştürüldü.
+Özellik Ölçekleme: Verilerinizi normalizasyon veya standardizasyon yöntemleri ile ölçeklendirildi.
+Veri Dengeleme: Verideki dengesiz sınıflar için SMOTE gibi teknikler kullanarak sınıf dengesini sağlandı.
+4. Veri Analizi ve Görselleştirme:
+Veri Keşfi: Pandas ve Seaborn/MATLAB gibi kütüphaneleri kullanarak verileri keşfedin ve anlamlı görselleştirmeler oluşturuldu.
+Korelasyon Matrisi: Özellikler arasındaki ilişkileri görmek için korelasyon matrisi oluşturun.
+Dağılım Grafikleri: Belirli özelliklerin churn ile nasıl ilişkili olduğunu görmek için dağılım grafikleri oluşturuldu.
+5. Model Geliştirme:
+Model Seçimi: Lojistik regresyon, Karar ağaçları, Random Forest, XGBoost, Yapay Sinir Ağları gibi algoritmalarla modeller oluşturuldu.
+Model Eğitimi: Veriyi eğitim ve test olarak ayırın (örneğin, %80 eğitim, %20 test).
+Model Değerlendirme:
+Doğruluk (Accuracy): Modelin genel doğruluğunu ölçün.
+ROC-AUC Skoru: Modelin sınıflandırma performansını değerlendirin.
+Confusion Matrix: Modelin doğru ve yanlış tahminlerini analiz edildi.
+6. Sonuçları Yorumlama ve Raporlama:
+Model Performansı: Modelin doğruluğunu, hassasiyetini, özgüllüğünü ve diğer performans ölçümlerini raporlandı.
+Önemli Özellikler: Churn tahmininde en etkili olan özellikleri vurgulayın.
+İş İçgörüleri: Bu sonuçlara dayalı olarak iş stratejileri hakkında önerilerde bulunun (örneğin, risk altındaki müşterilere özel kampanyalar).
+7. Proje Sunumu:
+Jupyter Notebook: Proje adımlarını bir Jupyter Notebook dosyasında belgeleyin, bu dosya hem kod hem de analizleri içermelidir.
+Sunum Hazırlığı: Elde edilen sonuçları ve iş stratejilerini yöneticilere sunmak için bir PowerPoint sunumu oluşturuldu.
+8. Gelişmiş Analiz ve İyileştirmeler:
+Model İyileştirme: Hiperparametre optimizasyonu (GridSearchCV veya RandomizedSearchCV) yaparak model performansını artırdı.
+Deep Learning: Eğer veri kümesi yeterince büyükse, derin öğrenme yaklaşımlarını deneyin (örneğin, LSTM).
+Proje Özet
+Bu proje, potansiyel işverenlerin veri bilimindeki yetkinliklerinizi değerlendirmelerine olanak tanır. Müşteri churn tahmini gibi bir problem üzerinde çalışarak, verileri analiz etme, modelleme ve iş için anlamlı içgörüler üretme yeteneklerinizi gösterebilirsiniz.
+
+
+ver seti:https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
